@@ -57,8 +57,8 @@ String email =(String)session.getAttribute("email");
     paymentWidget.requestPayment({
       orderId: '<%=orderNumber%>',
       orderName: '<%=name%>님의 주문',
-      successUrl: 'http://localhost:8080/success',
-      failUrl: 'http://localhost:8080/fail',
+      successUrl: 'http://teamp-env.eba-42e35ssu.ap-northeast-2.elasticbeanstalk.com/success',
+      failUrl: 'http://teamp-env.eba-42e35ssu.ap-northeast-2.elasticbeanstalk.com/fail',
       customerEmail: '<%=email%>', 
       customerName: '<%=name%>'
       }).catch(function (error) {
