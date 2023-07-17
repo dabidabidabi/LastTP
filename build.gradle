@@ -30,8 +30,8 @@ repositories {
 }
 
 dependencies {
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.mysql:mysql-connector-j'
@@ -43,9 +43,7 @@ dependencies {
 	//implementation "org.apache.tomcat.embed:tomcat-embed-jasper"
 	providedCompile 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	
-	implementation "javax.servlet:jstl:1.2"
-	
-	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+	implementation "javax.servlet:jstl:1.2"	
 
 	//spring email
 	implementation 'org.springframework.boot:spring-boot-starter-mail:2.7.1'
