@@ -42,7 +42,7 @@ public class MenuService {
 			file.transferTo(savefile);
 			
 			menu.setFilename(fileName);
-			menu.setFilepath("/resouces/files/"+fileName);
+			menu.setFilepath("/resources/files/"+fileName);
 		} else {
 			if(menu.getFilename()==null) {
 				menu.setFilename("");
