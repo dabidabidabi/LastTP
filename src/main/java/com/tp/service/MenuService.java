@@ -34,7 +34,7 @@ public class MenuService {
 	public void save(Menu menu, MultipartFile file) throws Exception {
 		
 		if(!file.isEmpty()) {
-			String projectPath = System.getProperty("user.dir") +"\\resources\\files";
+			String projectPath = "\\resources\\files";
 			
 			UUID uuid = UUID.randomUUID();
 			String fileName = uuid+"_"+file.getOriginalFilename();
