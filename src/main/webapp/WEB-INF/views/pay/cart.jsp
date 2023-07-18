@@ -11,7 +11,7 @@ String name =(String)session.getAttribute("name");
 String email =(String)session.getAttribute("email");
 %>
 <!DOCTYPE html>
-<html style="margin: 100px 250px;">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>장바구니</title>
