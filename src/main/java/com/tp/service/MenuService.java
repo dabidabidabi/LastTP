@@ -35,14 +35,11 @@ public class MenuService {
 		
 		if(!file.isEmpty()) {
 			String projectPath = System.getProperty("user.dir") + "/webapps/ROOT/resources/files/";
-			String projectPath2 = System.getProperty("user.dir") +"\\src\\main\\webapp\\resources\\files";
 			
 			UUID uuid = UUID.randomUUID();
 			String fileName = uuid+"_"+file.getOriginalFilename();
 			File savefile = new File(projectPath, fileName);
-			File savefile2 = new File(projectPath2, fileName);
 			file.transferTo(savefile);
-			file.transferTo(savefile2);
 			
 			menu.setFilename(fileName);
 			menu.setFilepath("/resources/files/"+fileName);
