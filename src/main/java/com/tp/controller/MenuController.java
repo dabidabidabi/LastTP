@@ -21,6 +21,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.tp.entity.Cart;
 import com.tp.entity.Menu;
+import com.tp.entity.Menu.MenuBuilder;
 import com.tp.entity.MenuOrder;
 import com.tp.entity.UserEntity;
 import com.tp.service.CartService;
@@ -64,7 +65,7 @@ public class MenuController {
 		   return "menu/menu";
 	   }
 	   
-	   //메뉴 저장
+	   	   //메뉴 저장
 	   @PostMapping("/menuSave")
 	   public String menuSave(Menu menu, MultipartFile file) throws Exception {
 		   menuService.save(menu, file);
