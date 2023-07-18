@@ -20,7 +20,7 @@ spring:
 #    url: jdbc:mysql://teampcafe.ckdicbbrmhtf.ap-northeast-2.rds.amazonaws.com/teamp
 #    username: dabin
 #    password: dlekdlek6523
-    url: database.cp66ubjknwwd.ap-northeast-2.rds.amazonaws.com/endP
+    url: jdbc:mysql://database.cp66ubjknwwd.ap-northeast-2.rds.amazonaws.com/endP
     username: root
     password: root1234
 
