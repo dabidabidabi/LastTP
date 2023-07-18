@@ -263,12 +263,7 @@ table.cart__list td {
 				
         
         <br>
-		
-        
-        <div class="cart__mainbtns">
-            <button class="cart__bigorderbtn left" onclick="location.href='mypage'">마이페이지</button>
-            <button class="cart__bigorderbtn right" onclick="location.href='menu'">주문하러가기</button>
-        </div>
+
     </section>
 </body>
 <script>
